@@ -5,3 +5,11 @@ steps:
   args: [ 'push', 'gcr.io/fraudfinderdemo/hugo:0.1']
 - name: 'gcr.io/fraudfinderdemo/hugo:0.1'
   dir: './fraudfinder'
+  entrypoint: 'hugo'
+  id: 'Build Hugo'
+- name: 'gcr.io/fraudfinderdemo/hugo:0.1'
+  dir: './fraudfinder'
+  entrypoint: 'hugo'
+  args: ['deploy']
+  id: 'Deploy into GCS'
+  waitFor: ['Build Hugo']

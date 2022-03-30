@@ -4,4 +4,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'push', 'gcr.io/fraudfinderdemo/hugo:0.1']
 - name: 'gcr.io/fraudfinderdemo/hugo:0.1'
-  dir: '${_WORKSPACE_DIR}'
+  dir: '${_WORKSPACE_DIR}/fraudfinder'

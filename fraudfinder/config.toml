@@ -4,6 +4,7 @@ title = 'Fraud Finder Workshop'
 theme = "hugo-theme-learn"
 [params]
   themeVariant = "mine"
+  disableLandingPageButton = true
 
 [[deployment.targets]]
 # An arbitrary name for this target.
@@ -11,3 +12,17 @@ name = "www.fraudfinder-workshop.com"
 # The Go Cloud Development Kit URL to deploy to. Examples:
 # GCS; see https://gocloud.dev/howto/blob/#gcs
 URL = "gs://www.fraudfinder-workshop.com"
+
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/mco-gh/fraudfinder"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Vertex AI Documentation"
+identifier = "VertexAI"
+url = "https://cloud.google.com/vertex-ai"
+weight = 20
+

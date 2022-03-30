@@ -10,3 +10,4 @@ steps:
   dir: './fraudfinder'
   args: ['deploy']
   id: 'Deploy into GCS'
+  waitFor: ['Build Hugo']

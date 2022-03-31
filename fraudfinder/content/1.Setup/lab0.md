@@ -1,5 +1,5 @@
 ---
-title: "Lab 0: Getting Started"
+title: "Lab 0: Lab's evn setup"
 date: 2022-03-29T17:23:55Z
 draft: false
 weight: 104

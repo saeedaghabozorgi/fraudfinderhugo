@@ -1,12 +1,13 @@
 ---
-title: "Vertex AI Workshop"
+title: "Fraud Finder Workshop"
 chapter: true
 weight: 000
 ---
+Welcome! In this workshop, you will go through a fraud detection use-case, and learn how to build an end-to-end ML workload with Vertex AI.
 
 # Vertex AI
 
-Welcome! Vertex AI brings together the Google Cloud services for building ML under one, unified UI and API. In Vertex AI, you can now easily train and compare models using AutoML or custom code training and all your models are stored in one central model repository. These models can now be deployed to the same endpoints on Vertex AI.
+Vertex AI brings together the Google Cloud services for building ML under one, unified UI and API. In Vertex AI, you can now easily train and compare models using AutoML or custom code training and all your models are stored in one central model repository. These models can now be deployed to the same endpoints on Vertex AI.
 
 ### who is this workshop for?
 * Data Engineer
